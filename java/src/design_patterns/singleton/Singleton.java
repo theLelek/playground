@@ -4,7 +4,7 @@ public class Singleton {
 
     private static Singleton singleton;
 
-    int value;
+    private final int value;
 
     private Singleton(int value) {
         this.value = value;
