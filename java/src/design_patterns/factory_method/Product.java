@@ -1,6 +1,9 @@
 package design_patterns.factory_method;
 
-public interface Product {
+interface Product {
 
+    String readLine();
+
+    void writeLine(String s);
 }
 
